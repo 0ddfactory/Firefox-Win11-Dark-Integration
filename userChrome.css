@@ -1,0 +1,12 @@
+/* Color Context Menu */
+.menupopup-arrowscrollbox {
+    background-color: var(--arrowpanel-background, #505050) !important;
+    border-color: var(--arrowpanel-border-color, #505050) !important;
+}
+
+/* Color to :hover items */
+menupopup>menuitem:not([disabled="true"]):hover,
+menupopup>menu:where([_moz-menuactive]:not([disabled="true"])) {
+    appearance: none !important;
+    background-color: var(--arrowpanel-border-color) !important;
+}
