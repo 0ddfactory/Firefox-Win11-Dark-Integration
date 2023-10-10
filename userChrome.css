@@ -5,8 +5,12 @@
 }
 
 /* Color to :hover items */
-menupopup>menuitem:not([disabled="true"]):hover,
-menupopup>menu:where([_moz-menuactive]:not([disabled="true"])) {
+menupopup>menuitem:not(.menuitem-iconic, [disabled="true"]):hover,
+menupopup>menu:where(.menuitem-iconic, [_moz-menuactive]:not([disabled="true"])) {
     appearance: none !important;
+    background-color: var(--arrowpanel-border-color) !important;
+}
+
+#context-navigation>.menuitem-iconic[_moz-menuactive="true"]>.menu-iconic-left>.menu-iconic-icon {
     background-color: var(--arrowpanel-border-color) !important;
 }
