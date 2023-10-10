@@ -11,6 +11,9 @@ https://addons.mozilla.org/en-US/firefox/addon/windows-11-dark-integration/
 ### Fix Context Menus (right click menu)
 
 Download userChrome.css from this github page.  
+* In Firefox type about:config in url bar and hit enter:  
+![image](https://github.com/0ddfactory/Firefox-Win11-Dark-Integration/assets/25939455/2c742708-6d79-44b6-8565-be3b69135705)  
+* Search for "toolkit.legacyUserProfileCustomizations.stylesheets" and set to true
 * Open File Explorer  
 * Enter "%appdata%\Mozilla\Firefox\Profiles" in the directory bar like so:  
 ![image](https://github.com/0ddfactory/Firefox-Win11-Dark-Integration/assets/25939455/fd5a2438-3986-4981-a909-26be3420730f)
