@@ -1,7 +1,7 @@
 # Firefox-Win11-Dark-Integration
 A firefox theme integrating windows 11 dark colors + a custom userchrome used to fix context menus not being themed by firefox color themes by default.
 
-![image](https://github.com/0ddfactory/Firefox-Win11-Dark-Integration/assets/25939455/9cc772f2-7c9b-44a9-93ea-3ee5e5dc5232)
+![image](https://github.com/0ddfactory/Firefox-Win11-Dark-Integration/assets/25939455/e2328d81-453d-45a2-ad11-e4921dc25585)  
 
 ## Installation
 
