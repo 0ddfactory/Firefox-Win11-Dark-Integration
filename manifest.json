@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.0",
+  "version": "1.2",
   "name": "Windows 11 Dark Integration",
   "theme": {
     "images": {},
@@ -17,8 +17,6 @@
       "popup_text": "rgb(255, 255, 255)",
       "popup_border": "rgb(59, 59, 59)",
       "tab_loading": "rgb(38, 38, 38)",
-      "ntp_background": "rgb(36, 36, 36)",
-      "ntp_text": "white"
     }
   }
 }
