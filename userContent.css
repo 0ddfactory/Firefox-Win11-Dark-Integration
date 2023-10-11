@@ -1,8 +1,13 @@
 @-moz-document url-prefix("about:newtab"),
 url-prefix("about:home") {
 
+  /* background color */
+  .outer-wrapper.ds-outer-wrapper-breakpoint-override {
+	background-color: #242424 !important;
+  }
+
   /* search bar */
-  .search-wrapper .search-handoff-button{
+  .search-wrapper .search-handoff-button {
     background:
 	#3c3c3c
 	var(--newtab-search-icon) 16px center no-repeat
@@ -13,6 +18,11 @@ url-prefix("about:home") {
   /* Tiles */
   .top-site-outer .tile, .top-site-outer .top-site-icon {
   	background-color: #3c3c3c !important;
+  }
+
+  .top-site-outer .default-icon, .top-site-outer .search-topsite {
+	background-color: #505050 !important;
+	fill: white !important;
   }
 
   /* articles */
@@ -28,4 +38,5 @@ url-prefix("about:home") {
   .home-section .section .selector {
 	background-color: #3c3c3c !important;
   }
+  
 }
