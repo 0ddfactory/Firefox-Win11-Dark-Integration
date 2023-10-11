@@ -1,0 +1,31 @@
+@-moz-document url-prefix("about:newtab"),
+url-prefix("about:home") {
+
+  /* search bar */
+  .search-wrapper .search-handoff-button{
+    background:
+	#3c3c3c
+	var(--newtab-search-icon) 16px center no-repeat
+	!important
+	;
+  }
+  
+  /* Tiles */
+  .top-site-outer .tile, .top-site-outer .top-site-icon {
+  	background-color: #3c3c3c !important;
+  }
+
+  /* articles */
+  .ds-onboarding-container:not(.placeholder), [lwt-newtab-brighttext] .ds-card-grid .ds-card:not(.placeholder) {
+	background: #3c3c3c !important;
+  }
+
+  /* settings menu */
+  .customize-menu {
+	background-color: #3c3c3c !important;
+  }
+
+  .home-section .section .selector {
+	background-color: #3c3c3c !important;
+  }
+}
